@@ -12,7 +12,7 @@ def main() -> None:
     # TODO: load Level, select InputSource and Renderer, then create Controller and Engine.
     # Start the renderer, call engine.run(), and close it in a finally block.
     raise NotImplementedError(
-        f"S0-05: assemble the game ({args.render}, {args.level}). "
+        f"assemble the game ({args.render}, {args.level}). "
         "To check the supplied files: uv run python -m gridworld.views.pygame_render"
     )
 

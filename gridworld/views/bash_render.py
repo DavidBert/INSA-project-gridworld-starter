@@ -4,16 +4,16 @@ from gridworld.contracts import JsonState
 
 
 class BashRender:
-    """To complete — S0-04. Only refresh is supplied and must remain unchanged."""
+    """To complete. Only refresh is supplied and must remain unchanged."""
 
     def __init__(self) -> None:
-        raise NotImplementedError("S0-04: initialize the terminal view")
+        raise NotImplementedError("initialize the terminal view")
 
     def start(self) -> None:
-        raise NotImplementedError("S0-04: start the view; a no-op is acceptable")
+        raise NotImplementedError("start the view; a no-op is acceptable")
 
     def state_to_string(self, json_state: JsonState) -> str:
-        raise NotImplementedError("S0-04: floor=., wall=#, exit=E; entities in order (player=P, unknown=?); turn and message, without print")
+        raise NotImplementedError("floor=., wall=#, exit=E; entities in order (player=P, unknown=?); turn and message, without print")
 
     def refresh(self, text: str) -> None:
         """SUPPLIED: replace the ANSI terminal display without adding print calls.
@@ -28,7 +28,7 @@ class BashRender:
         sys.stdout.flush()
 
     def update_render(self, json_state: JsonState) -> None:
-        raise NotImplementedError("S0-04: call state_to_string then refresh, once each")
+        raise NotImplementedError("call state_to_string then refresh, once each")
 
     def close(self) -> None:
-        raise NotImplementedError("S0-04: close idempotently; a no-op is acceptable")
+        raise NotImplementedError("close idempotently; a no-op is acceptable")
