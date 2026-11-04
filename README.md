@@ -46,6 +46,30 @@ show the resulting state.
 `PygameRender`, `PygameInput` and `BashRender.refresh` are supplied. The Pygame
 sprites are embedded, so no separate asset download is needed.
 
+## Continue with S2
+
+Keep your group's completed S0 game and S1 tests. S2 adds your own Python HTTP
+adapter, dialogue data, LLM service and integration. The supplied renderer includes
+the 2D/3D views and the sphinx dialogue; no browser code is required from you.
+
+Start with the [S2 project guide](https://davidbert.github.io/OutilsNumeriques/s2/).
+It provides the renderer and four starter downloads, launch commands, shared
+contracts and [Ollama setup](https://davidbert.github.io/OutilsNumeriques/s2/llm/).
+Read each archive's README and merge the files into your existing project.
+Do not replace your completed engine or existing tests with blank skeletons.
+
+The assignments are public and bilingual, with French before English:
+
+- [S2-01 — Python HTTP adapter](https://github.com/DavidBert/INSA-project-gridworld-starter/issues/1)
+- [S2-02 — Dialogue contract and map](https://github.com/DavidBert/INSA-project-gridworld-starter/issues/2)
+- [S2-03 — LLM service and deterministic fake](https://github.com/DavidBert/INSA-project-gridworld-starter/issues/3)
+- [S2-04 — Sphinx integration](https://github.com/DavidBert/INSA-project-gridworld-starter/issues/4)
+
+Use these as templates for issues in your group's fork. Implement and review your
+PRs in that fork. You can begin the API, contract and service independently; bring
+their outputs together before testing the full integration. A real model is needed
+only for the final service evaluation and demonstration, not automated tests.
+
 ## Contributors
 
 ## Credits
